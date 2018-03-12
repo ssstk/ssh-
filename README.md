@@ -11,9 +11,9 @@ Welcome to the ssh- wiki!
 
 sudo openvpn /etc/openvpn/asdads.ovpn
 
-ssh -N -f -R 2222:127.0.0.1:22 likesss@10.0.0.115
+ssh -N -f -R 2222:127.0.0.1:22 ceshi@10.0.0.115
 
-ssh -CqTfnN -o TCPKeepAlive=yes -o ServerAliveInterval=60 -R 2222:127.0.0.1:22 like@10.0.0.115
+ssh -CqTfnN -o TCPKeepAlive=yes -o ServerAliveInterval=60 -R 2222:127.0.0.1:22 ceshi@10.0.0.115
 
 ServerAliveInterval 60
 
